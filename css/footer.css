@@ -1,0 +1,76 @@
+.rodape{
+    width: 100%;
+    background: midnightblue;
+}
+.rodape .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    padding: 45px 0px;
+    margin: 20px;
+    margin-left: 20px;
+}
+.rodape .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape .grupo1 .box figure img{
+    border-radius: 100px;
+    margin-bottom: 80px;	
+    margin-left: 0px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.rodape .grupo1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.rodape .grupo1 .box p{
+    color: darkgoldenrod;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.rodape .grupo1 .rede-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+    margin-right: 5px;
+    background-color:darkgoldenrod;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+.rodape .grupo1 .rede-social a:hover{
+    color:black
+}
+.rodape .grupo2{
+    background-color:#1d075f ;
+   padding: 15px 10px;
+    text-align: center;
+    color: darkgoldenrod;
+}
+.rodape .grupo2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .rodape .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 45px 0px;
+        text-align: center;
+        
+    }
+}
+
